@@ -1,0 +1,32 @@
+{
+  "name": "google-panorama-depthmap",
+  "version": "1.0.0",
+  "description": "get a depth map from a panoID ( google street view )",
+  "main": "index.js",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "zpipe": "^1.0.2",
+    "jsonp-client": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samsy/google-panorama-depthmap.git"
+  },
+  "keywords": [
+    "webgl",
+    "depthmap",
+    "street",
+    "view",
+    "canvas"
+  ],
+  "author": "samsy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samsy/google-panorama-depthmap/issues"
+  },
+  "homepage": "https://github.com/Samsy/google-panorama-depthmap#readme"
+}
