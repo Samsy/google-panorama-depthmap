@@ -2,6 +2,8 @@
 
 Get a depthmap canvas from a google street view panorama by panoID
 
+A common fork of the excellent GSVPANODepth.
+
 Example:
 
 ```js
