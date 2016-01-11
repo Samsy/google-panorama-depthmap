@@ -226,28 +226,6 @@ function decode(rawDepthMap) {
   return depthMap;
 }
 
-function ajaxGet(url) {
-
-  return new Promise(function(resolve, reject) {
-    var req = new XMLHttpRequest();
-    req.responseType = 'jsonp';
-    req.open("GET", url);
-    req.onload = function() {
-      if (req.status === 200) {
-        resolve(req.response);
-      } else {
-        reject(new Error(req.statusText));
-      }
-    };
-
-    req.onerror = function() {
-      reject(new Error("Network error"));
-    };
-
-    req.send();
-  });
-
-}
 
 function addCallback(url) {
   // The URL already has a callback
