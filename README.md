@@ -13,10 +13,6 @@ gDepthMap(panoID, callback)
 ```
 
 
-
-[![NPM](https://nodei.co/npm/google-panorama-zoom-level.png)](https://www.npmjs.com/package/google-panorama-zoom-level)
-
-
 ## See Also
 
 - [google-panorama-by-tiles](https://github.com/Jam3/google-panorama-by-tiles)
