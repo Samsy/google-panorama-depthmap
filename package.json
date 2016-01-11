@@ -1,6 +1,6 @@
 {
   "name": "google-panorama-depthmap",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "description": "get a depth map from a panoID ( google street view )",
   "main": "index.js",
   "dependencies": {
