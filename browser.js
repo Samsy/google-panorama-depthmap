@@ -73,15 +73,9 @@ function decodeDepth(data) {
     y++
   }
 
-
   context.putImageData(image, 0, 0);
 
-  canvas.style.top = '0px'
-  canvas.style.position = 'absolute'
-
   callback(canvas)
-
-  document.body.appendChild(canvas);
 
 
 }
@@ -99,7 +93,6 @@ function parse(depthmap) {
 
   depthMap = computeDepthMap(header, data.indices, data.planes);
 
-  console.log(depthMap)
   return depthMap;
 
 }
